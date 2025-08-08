@@ -6,8 +6,11 @@
   "scripts": {
     "dev": "yes | pnpm install && vite",
     "build": "yes | pnpm install && rm -rf node_modules/.vite-temp && tsc -b && vite build",
+    "build:pages": "tsc -b && vite build",
     "lint": "yes | pnpm install && eslint .",
-    "preview": "yes | pnpm install && vite preview"
+    "preview": "yes | pnpm install && vite preview",
+    "deploy": "npx wrangler pages deploy dist --project-name milvet-fertility-navigator",
+    "deploy:preview": "npx wrangler pages deploy dist --project-name milvet-fertility-navigator --compatibility-date 2024-01-01"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.7",
