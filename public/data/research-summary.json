@@ -1,0 +1,38 @@
+{
+  "lastUpdated": "2025-07-14",
+  "version": "1.0",
+  "summary": {
+    "totalArticles": 6,
+    "categories": [
+      "TRICARE Benefits",
+      "VA Benefits",
+      "Clinical Information",
+      "Statistics and Research",
+      "Legislation",
+      "Funding"
+    ],
+    "fundingSources": 6,
+    "partnerOrganizations": 5,
+    "legislationItems": 4
+  },
+  "featuredTopics": [
+    {
+      "title": "TRICARE Fertility Coverage Updates",
+      "description": "Latest information on what fertility treatments are covered under TRICARE in 2025"
+    },
+    {
+      "title": "VA IVF Benefits Expansion",
+      "description": "Recent expansion of VA fertility benefits including unmarried veterans and same-sex couples"
+    },
+    {
+      "title": "Military Fertility Statistics",
+      "description": "Current data on infertility rates and challenges facing military families"
+    }
+  ],
+  "quickStats": {
+    "militaryInfertilityRate": "221.56 per 10,000 persons",
+    "tricareCoverageLevel": "Limited - diagnosis and underlying conditions only",
+    "vaIvfEligibility": "Service-connected infertility required",
+    "availableGrants": "6+ military-specific funding sources"
+  }
+}

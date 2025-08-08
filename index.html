@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Milvet Fertility Navigator - Military Family Fertility Support</title>
+  
+  <!-- SEO and Social Meta Tags -->
+  <meta name="description" content="Navigate fertility resources, funding opportunities, and community support designed specifically for U.S. service members, veterans, and their families." />
+  <meta name="keywords" content="military fertility, veteran fertility, TRICARE, IVF, military families, fertility funding, military benefits" />
+  <meta name="author" content="Milvet Fertility Navigator" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Milvet Fertility Navigator - Military Family Fertility Support" />
+  <meta property="og:description" content="Navigate fertility resources, funding opportunities, and community support designed specifically for U.S. service members, veterans, and their families." />
+  <meta property="og:url" content="https://milvet-fertility-navigator.com" />
+  <meta property="og:site_name" content="Milvet Fertility Navigator" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Milvet Fertility Navigator - Military Family Fertility Support" />
+  <meta property="twitter:description" content="Navigate fertility resources, funding opportunities, and community support designed specifically for U.S. service members, veterans, and their families." />
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json" />
+  
+  <!-- PWA Icons -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  
+  <!-- iOS Safari PWA -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="MFN" />
+  
+  <!-- Microsoft Tiles -->
+  <meta name="msapplication-TileColor" content="#2563eb" />
+  <meta name="msapplication-config" content="/browserconfig.xml" />
+  
+  <!-- Theme Colors -->
+  <meta name="theme-color" content="#2563eb" />
+  <meta name="msapplication-navbutton-color" content="#2563eb" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  
+  <!-- Security Headers -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  
+  <!-- Preconnect to external domains -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://ohnrftgsndcplewufrip.supabase.co" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((registration) => {
+            console.log('SW registered: ', registration);
+          })
+          .catch((registrationError) => {
+            console.log('SW registration failed: ', registrationError);
+          });
+      });
+    }
+  </script>
+  
+  <!-- No-JS Fallback -->
+  <noscript>
+    <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+      <h1>JavaScript Required</h1>
+      <p>Milvet Fertility Navigator requires JavaScript to function properly.</p>
+      <p>Please enable JavaScript in your browser settings to continue.</p>
+    </div>
+  </noscript>
+</body>
+
+</html>

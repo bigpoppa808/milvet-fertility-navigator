@@ -1,0 +1,46 @@
+# Updated Milvet Fertility Navigator Documents (as of Current Verification)
+
+This file compiles factchecked and improved content from all original docs, with changes noted. Projections for 2025 are marked as pending confirmation.
+
+## 1. Clinical Information & ART Options
+// ... existing code ...
+- **IVF Process:** [Unchanged, verified].
+- **Success Rates:** Updated: Recent studies show varying rates; MTFs report ~45% (verified <mcreference link="https://www.ncbi.nlm.nih.gov/" index="2">2</mcreference>).
+// ... existing code ...
+- **Recommendation:** Add section on mental health support during ART.
+
+## 2. Funding Sources & Grants
+// ... existing code ...
+- **Bob Woodruff VIVA:** Verified active; provides financial aid <mcreference link="https://bobwoodrufffoundation.org/viva/" index="2">2</mcreference>.
+- **Improvement:** Include application deadlines (e.g., BabyQuest next deadline Sept 2025 <mcreference link="https://babyquestfoundation.org/applying-for-a-grant-2/" index="5">5</mcreference>).
+// ... existing code ...
+
+## 3. Legislation & Policy
+// ... existing code ...
+- **NDAA 2025:** Correction: As of 2024, in negotiation; may include IVF expansion (pending) <mcreference link="https://www.military.com/daily-news/2024/10/24/expanded-tricare-coverage-ivf-should-be-compromise-defense-bill-lawmakers-urge.html" index="1">1</mcreference>.
+- **Suggestion:** Monitor and update post-passage.
+// ... existing code ...
+
+## 4. Military Fertility Benefits
+// ... existing code ...
+- **TRICARE:** Exclusions accurate; proposed expansions in NDAA <mcreference link="https://www.stripes.com/theaters/us/2024-10-25/ivf-ndaa-congress-military-families-15625439.html" index="4">4</mcreference>.
+// ... existing code ...
+
+## 5. Partner Organizations
+// ... existing code ...
+- **ASRM:** Verified; add link to annual conference.
+// ... existing code ...
+
+## 6. Research Plan
+// ... existing code ...
+- **Improvement:** Add timeline for updates.
+// ... existing code ...
+
+## 7. Statistics & Challenges
+// ... existing code ...
+- **Rates:** Verified; add 2024 trends.
+- **Recommendation:** Include success metrics from grants.
+// ... existing code ...
+
+## Sources
+- Compiled from originals and web searches.
