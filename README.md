@@ -1,50 +1,41 @@
-# React + TypeScript + Vite
+# Milvet Fertility Navigator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The Milvet Fertility Navigator is a dedicated platform providing resources and guidance for military veterans and service members navigating fertility challenges. It offers up-to-date information on benefits, legislation, funding, and clinical options to support family-building journeys.
 
-Currently, two official plugins are available:
+Deployed on Cloudflare Pages: [Live Site](https://1a24f948.milvet-fertility.pages.dev)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Research Basis
+Grounded in July 2025 research:
 
-## Expanding the ESLint configuration
+- **TRICARE & VA Coverage**: Limited ART coverage; VA expanded IVF for service-connected infertility, including same-sex couples.
+- **Legislation**: Executive Order 14216, NDAA 2025 provisions, IVF for Military Families Act pending.
+- **Challenges**: Higher infertility rates in military (15-20% vs. 12% civilian), deployment impacts.
+- **Funding**: Grants like Bob Woodruff VIVA, Cade Foundation.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Detailed docs in `/docs/`, including `military_fertility_benefits_2025.md` and `research_plan_milvet_fertility_navigator.md`.
 
-- Configure the top-level `parserOptions` property like this:
+## Functionalities
+- **Benefits Guide**: Detailed coverage for TRICARE, VA, active duty vs. veterans.
+- **Policy Tracker**: Current legislation and policy updates.
+- **Funding Resources**: Grants, discounts, financial assistance.
+- **Partner Directory**: Support organizations like ASRM, RESOLVE, MFBC.
+- **Statistics & Challenges**: Data on military fertility issues.
+- **Clinical Info**: ART options, military-friendly clinics.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## How to Use
+1. **Local Development**:
+   - Install dependencies: `pnpm install`
+   - Run dev server: `pnpm run dev`
+   - Access at `http://localhost:3000`
+2. **Build and Deploy**:
+   - Build: `pnpm run build`
+   - Deploy to Cloudflare: `npx wrangler pages deploy dist`
+3. Navigate sections via the web app for personalized info.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Marketing Messages
+- Empower military families with essential fertility navigation tools.
+- Bridge gaps in veteran care for better family outcomes.
+- Support our heroes in building the families they deserve.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Contributions welcome via issues or PRs.
